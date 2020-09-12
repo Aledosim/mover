@@ -1,0 +1,23 @@
+#:kivy 1.10.0
+#:import Factory kivy.factory.Factory
+
+<Mover>:
+    size_hint: [None, None]
+    width:
+    height: 600
+    obj: my_mass
+#    canvas:
+#        Rectangle:
+#            pos: [self.center_x, 0]
+#            size: [1, self.height]
+    Mass:
+        id: my_mass
+        width: 10
+        height: 10
+
+<Mass>:
+    size_hint: [None, None]
+    canvas:
+        Ellipse:
+            pos: self.pos
+            size: self.size
