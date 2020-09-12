@@ -1,4 +1,4 @@
-# mover
+# Mover
 Some geometrical form with various movement types based in Kivy
 
 This is a simple experiment I wrote a long time ago to understand how to make a Kivy app for Android and explore animations. I don't pretend to continue with it. Feel free to use it as you like.
